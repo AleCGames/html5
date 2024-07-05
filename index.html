@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="en-us">
    <head>
-        <title>Downloading: Woodpuzzle</title>
+        <title>Downloading: Fill Multicolor</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body {
-              background-color: #ffda8d;
-	      canvas{ cursor:url(cursorWood.cur),auto !important; }
+              background-color: black;
             }
             body > div {
                 position: absolute;
@@ -24,15 +23,14 @@
             }
             progress[value] {
                 appearance: none;
-                background-color: #54200f !important;
-                border-radius: 4px;
-                box-shadow: 0 2px 3px rgba(227,98,48,1) inset !important;
+                background-color: #eee;
+                border-radius: 3px;
+                box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
                 width: 50%;
-                height: 10px
+                height: 8px
             }
-	    canvas{ cursor: inherit; /* Inherit the cursor from the body */ }
+			canvas{ cursor:url(cursorHTML5.cur),auto !important; }
         </style>
-	    
     </head>
   <body>
     <div id="loading">
@@ -196,7 +194,7 @@ k.p.toString(16)+", data=0x"+p.toString(16)))}return m};t.L=function(a){this.j=a
                 break;
             }
           };
-          xml.open('GET', "Woodpuzzle.bin", true);
+          xml.open('GET', "Fill Multicolor.bin", true);
           xml.responseType = 'arraybuffer';
           xml.send(null);
     </script>
